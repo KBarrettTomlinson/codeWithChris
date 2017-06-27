@@ -299,6 +299,7 @@
 				E3DBD1A51EFC375B00C87AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
