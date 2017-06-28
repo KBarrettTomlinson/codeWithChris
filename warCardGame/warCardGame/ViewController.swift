@@ -23,3 +23,25 @@ class ViewController: UIViewController {
 
 }
 
+//class Person{
+//    
+//    var name:String = "Initial Name"
+//    
+//    init(){
+//        print("New Person initialized")
+//        self.sayCheese()
+//        
+//    }
+//    
+//    func sayCheese(){
+//        print("Say Cheese")
+//    }
+//    
+//}
+//
+//var a = Person()
+//var b = a.name
+//print(b)
+//a.name = "Bobby"
+
+
