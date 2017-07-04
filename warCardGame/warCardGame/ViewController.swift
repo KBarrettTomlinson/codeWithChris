@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var leftCardView: UIImageView!
+    @IBOutlet weak var rightCardView: UIImageView!
+    @IBOutlet weak var leftScoreView: UILabel!
+    @IBOutlet weak var rightScoreView: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,25 +28,6 @@ class ViewController: UIViewController {
 
 }
 
-//class Person{
-//    
-//    var name:String = "Initial Name"
-//    
-//    init(){
-//        print("New Person initialized")
-//        self.sayCheese()
-//        
-//    }
-//    
-//    func sayCheese(){
-//        print("Say Cheese")
-//    }
-//    
-//}
-//
-//var a = Person()
-//var b = a.name
-//print(b)
-//a.name = "Bobby"
+
 
 

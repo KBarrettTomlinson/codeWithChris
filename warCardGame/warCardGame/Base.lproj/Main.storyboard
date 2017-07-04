@@ -110,6 +110,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="ZGX-CF-hqW" secondAttribute="trailing" id="sti-xx-BhW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftCardView" destination="DYs-hn-hJ7" id="1V4-Yc-igt"/>
+                        <outlet property="leftScoreView" destination="KcZ-QC-Oqy" id="kRc-TM-1OC"/>
+                        <outlet property="rightCardView" destination="PU0-dm-QbI" id="PrN-Ak-Ugv"/>
+                        <outlet property="rightScoreView" destination="xJo-gn-fwH" id="ULO-uf-gW6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
