@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func dealTapped(_ sender: Any) {
+        print("deal tapped")
+    }
 
 }
 
