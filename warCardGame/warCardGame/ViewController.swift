@@ -27,6 +27,8 @@ class ViewController: UIViewController {
 
     @IBAction func dealTapped(_ sender: Any) {
         print("deal tapped")
+        leftCardView.image = UIImage(named: "card10")
+        rightCardView.image = UIImage(named: "jack")
     }
 
 }
